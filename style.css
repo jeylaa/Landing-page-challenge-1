@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;1,900&display=swap");
+body {
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display";
+}
+body,
+.plan-container {
+  position: relative;
+}
+.main-container {
+  background-color: white;
+  margin-top: 20px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5%;
+  height: 530px;
+  padding-bottom: 15px;
+}
+.main-container,
+.illustration {
+  width: 400px;
+}
+.text-container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.text-container p,
+.plan-container p,
+.cancel-order {
+  color: #a4a9b5;
+}
+.plan-container {
+  background-color: hsl(225, 100%, 98%);
+  margin: 5px 45px 15px 45px;
+  height: 80px;
+  border-radius: 20px;
+}
+.main-container,
+.plan-container img,
+.plan-container h4,
+.plan-container p,
+.plan-container a,
+button,
+.cancel-order {
+  position: absolute;
+}
+.plan-container img {
+  left: 20px;
+  top: 20px;
+}
+.plan-container h4,
+.plan-container p {
+  left: 80px;
+}
+.plan-container p {
+  top: 30px;
+}
+.plan-container a {
+  top: 35px;
+  right: 20px;
+}
+button {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: white;
+  background-color: #382ae1;
+  border-radius: 10px;
+  border-style: hidden;
+  height: 40px;
+  width: 300px;
+  font-family: inherit;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+button,
+.cancel-order,
+.main-container {
+  left: 50%;
+  transform: translate(-50%);
+}
+.cancel-order {
+  bottom: 20px;
+  font-size: small;
+}
